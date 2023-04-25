@@ -30,23 +30,7 @@ def draw_polygon():
 def main():
     global image, canvas, photo, clicked_points
 
-    # なにも色がついていない画像
-    # image = Image.open("original_image.png")
-    
-    # 往路のデフォルメマップ
-    # image = Image.open("map_before.png")
-
-    # 復路のデフォルメマップ
-    image = Image.open("map_after.png")
-
-    # 吹き出しのTempalte
-    # image = Image.open("map_after_transparent.png")
-
-    # 一覧画像 車
-    # image = Image.open("③試合前_黒_混雑表示イメージFIX.png")
-
-    # 一覧画像 鉄道
-    # image = Image.open("map_after_transparent.png")
+    image = Image.open("sample.png")
 
     clicked_points = []
 
