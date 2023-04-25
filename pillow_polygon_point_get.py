@@ -8,7 +8,6 @@ def on_canvas_click(event):
     clicked_points.append((x, y))
     print(f"Clicked coordinates: {x}, {y}")
 
-    # TODO 点の数 [清田:12, 札幌南部:16, 札幌北部:24, 厚別:12, 江別:12, 長沼:14, 恵庭:8]
     if len(clicked_points) >= 12: 
         draw_polygon()
 
